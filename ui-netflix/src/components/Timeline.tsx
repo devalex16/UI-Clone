@@ -1,6 +1,12 @@
 import api from '../../movies.json';
 import Image from 'next/image';
 
+type MoviesProps = {
+  title: string;
+  banner: string;
+  trailer: string
+
+}
 export default function Timeline() {
   const dados = JSON.parse(JSON.stringify(api))
   const info = Object.keys(dados)
@@ -13,7 +19,7 @@ export default function Timeline() {
            <div key={list}>
              <h2 className="text-lg font-bold">{list}</h2>
              <div className="flex gap-4 mb-[30px] snap-mandatory snap-x overflow-y-auto w-[90vw]">
-               {movies.map(({data}:{data?:Array}) => {
+               {movies.map(({data}:{data?:Array<MoviesProps>}) => {
                  return (
                   <a key={data.title} href={data.trailer} target="_blank">
                    <div className="h-[20vh] w-[27vw] snap-center relative" key={data.title}>
