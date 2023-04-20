@@ -13,7 +13,7 @@ export default function Timeline() {
            <div key={list}>
              <h2 className="text-lg font-bold">{list}</h2>
              <div className="flex gap-4 mb-[30px] snap-mandatory snap-x overflow-y-auto w-[90vw]">
-               {movies.map(({data}:{data?:array}) => {
+               {movies.map(({data}:{data?:Array}) => {
                  return (
                   <a key={data.title} href={data.trailer} target="_blank">
                    <div className="h-[20vh] w-[27vw] snap-center relative" key={data.title}>
