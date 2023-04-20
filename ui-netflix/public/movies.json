@@ -1,7 +1,7 @@
 {
   "TV Shows": [
     {
-      "title": "Blinspot",
+      "title":"Blinspot",
       "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAIi8B1IN0HkVGu8YW8XT3uTHaGWufiCCo7Q&usqp=CAU",
       "trailer": "https://youtu.be/RqZkit-aCTo"
     },
@@ -37,5 +37,5 @@
       "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPKCL8oQBa0ast8ij1dKZQu_kwm9H7Sea9Q&usqp=CAU",
       "trailer": "https://youtu.be/dsAV5KexONg"
     }
-  ],
+  ]
 }
