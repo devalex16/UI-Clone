@@ -29,10 +29,10 @@ type ButtonsProps = {
 
 function Buttons({textIcon, children}:ButtonsProps) {
   return (
-    <buttons className="flex flex-col justify-center items-center hover:text-zinc-100">
+    <button className="flex flex-col justify-center items-center hover:text-zinc-100">
       {children}
       <p className="pt-[2px] text-xs">{textIcon}</p>
-   </buttons>
+   </button>
   )
 }
 
