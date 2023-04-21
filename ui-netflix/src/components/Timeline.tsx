@@ -1,4 +1,4 @@
-import api from '/movies.json';
+import api from '../../movies.json';
 import Image from 'next/image';
 
 type MoviesProps = {
